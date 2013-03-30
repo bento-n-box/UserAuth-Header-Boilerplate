@@ -1,6 +1,6 @@
 This boilerplate is built to decrease the start-up time in getting a basic framework and user-login module installed. There's a basic header with dropdowns and a login page which enables you to login with Google, Facebook, or Twitter. The basic Oauth is still being built. 
 
-It using expressjs as a framework, mongodb as a database, sass for styling, grunt as its js task runner, passport for user auth.
+It using expressjs as a framework, mongodb as a database, backbone as a js framework, sass for styling, grunt as its js task runner, passport for user auth.
 
 <h3>Installation:</h3>
 
