@@ -1,0 +1,543 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/sprite\/\*\.png}line{font-family:\00003130}}
+.sprite-sprite {
+  background: url('../../images/sprite-sd16e45f6b8.png') no-repeat;
+}
+
+@media screen {
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_reset\.scss}line{font-family:\0000318}}
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  /* HTML5 display-role reset for older browsers */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_reset\.scss}line{font-family:\0000330}}
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_reset\.scss}line{font-family:\0000334}}
+  body {
+    line-height: 1;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_reset\.scss}line{font-family:\0000338}}
+  ol, ul {
+    list-style: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_reset\.scss}line{font-family:\0000342}}
+  blockquote, q {
+    quotes: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_reset\.scss}line{font-family:\0000347}}
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: "";
+    content: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_reset\.scss}line{font-family:\0000352}}
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  /*
+  Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+  Code licensed under the BSD License:
+  http://developer.yahoo.com/yui/license.html
+  version: 2.8.1
+  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_reset\.scss}line{font-family:\0000363}}
+  body {
+    font: 13px / 1.231 arial, helvetica, clean, sans-serif;
+    *font-size: small;
+    *font: x-small;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_reset\.scss}line{font-family:\0000369}}
+  select, input, button, textarea, button {
+    font: 99% arial,helvetica,clean,sans-serif;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_reset\.scss}line{font-family:\0000373}}
+  table {
+    font-size: inherit;
+    font: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_reset\.scss}line{font-family:\0000378}}
+  pre, code, kbd, samp, tt {
+    font-family: monospace;
+    *font-size: 108%;
+    line-height: 100%;
+  }
+
+  /*
+  font sizes
+  px  %
+  10	77
+  11	85
+  12	93
+  13	100
+  14	108
+  15	116
+  16	123.1
+  17	131
+  18	138.5
+  19	146.5
+  20	153.9
+  21	161.6
+  22	167
+  23	174
+  24	182
+  25	189
+  26	197
+  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000313}}
+  body {
+    background: url(../../../images/fabric_of_squares_gray.png);
+    min-width: 960px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000320}}
+  #login {
+    width: 600px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000341}}
+  #login ul {
+    float: left;
+    margin: 0 auto;
+    width: 250px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000347}}
+  #login ul li {
+    margin: 0 auto 15px auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000353}}
+  #login #login-buttons li button {
+    height: 44px;
+    border: none;
+    width: 256px;
+    background: url(../../../images/login-btns.png) no-repeat;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000360}}
+  #login #login-buttons li.google button {
+    background-position: 0 -258px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000362}}
+  #login #login-buttons li.google button:hover {
+    background-position: 0 -301px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000365}}
+  #login #login-buttons li.google button:active {
+    background-position: 0 -344px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000371}}
+  #login #login-buttons li.twitter button {
+    background-position: 0 -129px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000373}}
+  #login #login-buttons li.twitter button:hover {
+    background-position: 0 -172px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000376}}
+  #login #login-buttons li.twitter button:active {
+    background-position: 0 -215px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000382}}
+  #login #login-buttons li.facebook button {
+    background-position: 0 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000384}}
+  #login #login-buttons li.facebook button:hover {
+    background-position: 0 -43px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000387}}
+  #login #login-buttons li.facebook button:active {
+    background-position: 0 -86px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\0000394}}
+  #login #vertical-sep {
+    width: 0;
+    height: 168px;
+    border-left: 1px solid #242424;
+    border-right: 1px solid #646464;
+    float: left;
+    margin: 0 32px 22px 32px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\00003102}}
+  #login #vertical-sep span {
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .35em .5em .5em .5em;
+    margin-top: -0.5em;
+    width: 2em;
+    height: 1em;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: -1.5em;
+    color: #AAA;
+    font-weight: 400;
+    font-size: 1.1em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\00003121}}
+  #login #login-creds {
+    width: 250px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\00003124}}
+  #login #login-creds input {
+    float: left;
+    width: 224px;
+    padding: 10px 12px;
+    font-size: 16px;
+    margin: 0 auto 15px auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\00003132}}
+  #login #login-creds button {
+    color: #ffffff;
+    width: 250px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    height: 44px;
+    font-size: 16px;
+    background-color: #006dcc;
+    background-image: -moz-linear-gradient(top, #45cc00 0%, #0044cc 100%);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+    background-repeat: repeat-x;
+    border-color: #0044cc #0044cc #002a80;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\00003154}}
+  #login #login-creds .pwhelp {
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/base\/_global\.scss}line{font-family:\00003157}}
+  #login #login-creds .createAccount {
+    float: right;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\000038}}
+  header.navbar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+    margin-bottom: 0;
+    color: #fff;
+    background: black;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000318}}
+  header.navbar a {
+    text-decoration: none;
+    color: #999999;
+    padding: 10px 15px 10px;
+    line-height: 30px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000325}}
+  header.navbar .container {
+    width: 940px;
+    margin: 0 auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000329}}
+  header.navbar .container .logo {
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 30px 0 0;
+    float: left;
+    width: 500px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000339}}
+  header.navbar .container #userName {
+    float: right;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000347}}
+  header.navbar .container #userName:hover span {
+    color: #fff;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000349}}
+  header.navbar .container #userName:hover span.user {
+    background-image: url('../../images/sprite-scf00482182.png');
+    background-position: 0 -527px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000353}}
+  header.navbar .container #userName span {
+    color: #999;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000354}}
+  header.navbar .container #userName span.user {
+    line-height: 36px;
+    margin: 6px 5px 0 0;
+    width: 16px;
+    background-image: url('../../images/sprite-scf00482182.png');
+    background-position: 0 -498px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000360}}
+  header.navbar .container #userName:hover ul {
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000365}}
+  header.navbar .container #userName ul {
+    position: absolute;
+    overflow: hidden;
+    top: 100%;
+    background: #fff;
+    z-index: 1000;
+    display: none;
+    float: left;
+    width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000389}}
+  header.navbar .container #userName ul li {
+    display: inline-block;
+    width: 160px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000394}}
+  header.navbar .container #userName ul li:hover {
+    background: #0088cc;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\0000398}}
+  header.navbar .container #userName ul li a {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003104}}
+  header.navbar .container nav {
+    position: relative;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003107}}
+  header.navbar .container nav a {
+    padding: 10px 2px 10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003111}}
+  header.navbar .container nav ul {
+    float: right;
+    width: 200px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003116}}
+  header.navbar .container nav li {
+    display: inline-block;
+    width: 16px;
+    padding: 0 8px 0 8px;
+    line-height: 36px;
+    margin-top: 7px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003123}}
+  header.navbar .container nav li.home {
+    background-image: url('../../images/sprite-scf00482182.png');
+    background-position: 0 -556px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003125}}
+  header.navbar .container nav li.home:hover {
+    background-image: url('../../images/sprite-scf00482182.png');
+    background-position: 0 -585px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003129}}
+  header.navbar .container nav li.feed {
+    background-image: url('../../images/sprite-scf00482182.png');
+    background-position: 0 -353px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003131}}
+  header.navbar .container nav li.feed:hover {
+    background-image: url('../../images/sprite-scf00482182.png');
+    background-position: 0 -382px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003135}}
+  header.navbar .container nav li.mail {
+    background-image: url('../../images/sprite-scf00482182.png');
+    background-position: 0 -324px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003137}}
+  header.navbar .container nav li.mail:hover {
+    background-image: url('../../images/sprite-scf00482182.png');
+    background-position: 0 -411px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003141}}
+  header.navbar .container nav li.arrow {
+    background-image: url('../../images/sprite-scf00482182.png');
+    background-position: 0 -440px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003143}}
+  header.navbar .container nav li.arrow:hover {
+    background-image: url('../../images/sprite-scf00482182.png');
+    background-position: 0 -469px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003148}}
+  header.navbar .container nav li a:hover {
+    color: #fff;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003154}}
+  header.navbar .container nav li.dropdown:hover ul {
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003159}}
+  header.navbar .container nav li.dropdown ul {
+    position: absolute;
+    overflow: hidden;
+    top: 100%;
+    background: #fff;
+    z-index: 1000;
+    display: none;
+    float: left;
+    width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003183}}
+  header.navbar .container nav li.dropdown ul li {
+    display: inline-block;
+    width: 160px;
+    padding: 0;
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003189}}
+  header.navbar .container nav li.dropdown ul li:hover {
+    background: #0088cc;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003193}}
+  header.navbar .container nav li.dropdown ul li a {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003208}}
+  #fork-me {
+    background-image: url('../../images/sprite-scf00482182.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 149px;
+    width: 149px;
+    border: 0;
+    display: block;
+    right: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/layouts\/_header\.scss}line{font-family:\00003216}}
+  #fork-me:hover {
+    background-position: 0 -162px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/bentonrr\/Development\/Personal\/boilerplate-node-login-header\/www\/public\/stylesheets\/scss\/app\.scss}line{font-family:\0000326}}
+#global-container {
+  width: 980px;
+  margin: 100px auto 0 auto;
+  position: relative;
+}

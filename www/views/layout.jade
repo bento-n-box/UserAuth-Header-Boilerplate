@@ -1,0 +1,31 @@
+doctype 5
+html(lang="en")
+	head
+		meta(charset='utf-8', content='en_US')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0")
+		meta(name='description', content='Sample App')
+	
+		meta(property='og:site_name', content='Sample App')
+		meta(property='og:title', content='Sample App') 
+		meta(property='og:description', content='Sample App')
+		meta(property='og:url', content='Sample App')
+		meta(property='og:image', content='Sample App')
+		meta(property='og:type', content='website')
+		meta(property='og:locale', content='en_US')
+
+		link(rel='shortcut icon', href='images/favicon.ico')
+		link(rel='stylesheet', href='stylesheets/generated/app.css')
+	block headScripts
+		script(src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+		script(src='javascripts/lib/require.js', data-main='javascripts/app/main')
+		
+		script
+			define('settings', {
+				'gaAccountId': 'GA_ACCOUNT_ID_HERE',
+				'fbAccountId': 'FB_ACCOUNT_ID_HERE'
+			});
+	body
+		include ./partials/header
+	#global-container
+

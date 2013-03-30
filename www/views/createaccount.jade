@@ -1,0 +1,10 @@
+include ./layout
+block content
+	#login
+		#login-creds
+			#newUser
+				form(action="/login", method="post")
+					input('type=text', name="username")
+					input('type=text', name="password")
+					a(href="#", id="createSubmit") Submit
+

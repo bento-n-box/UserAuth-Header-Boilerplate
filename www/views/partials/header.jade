@@ -1,0 +1,41 @@
+doctype 5
+html(lang="en")
+	head
+		title #{title}
+	body	
+		header.navbar
+				.container
+					nav
+						ul.nav.icons
+							a(href="#")
+								li.home 
+							a(href="#")
+								li.feed
+							a(href="#")
+								li.mail
+							a(href="#")
+								li.dropdown.arrow
+									a(href="#")
+									ul.dropdown-menu
+										li 
+											a(href="#") Profile
+										li 
+											a(href="#") Settings
+										li 
+											a(href="auth/logout") Signout
+					h1.logo #{title}
+					#userName.dropdown
+							span.user
+							- if(user)
+								span #{user}
+								ul.dropdown-menu
+									li 
+										a(href="#") Profile
+									li 
+										a(href="#") Settings
+									li 
+										a(href="/logout") Signout
+							- else
+								span 
+									a(href="/login") SignIn
+								

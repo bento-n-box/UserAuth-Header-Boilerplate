@@ -1,0 +1,25 @@
+include ./layout
+block content
+	#login
+		ul#login-buttons	
+			li.google
+				a(href="/auth/google") 
+					button 
+			li.twitter
+				a(href="/auth/twitter") 
+					button 
+			li.facebook
+				a(href="/auth/facebook") 
+					button 
+		#vertical-sep
+			span OR
+		ul#login-creds
+			form
+				input('type=text', name="username")
+				input('type=text', name="password")
+				a(href="#")
+					button	
+						span Create Account
+				a.pwhelp(href="#") Help
+				a.createAccount(href="../createaccount") Create Account
+				

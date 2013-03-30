@@ -1,0 +1,19 @@
+{
+  "name": "Boilerplate",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.1.0",
+    "ejs": "*",
+    "stylus": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-google": "*",
+    "passport-twitter": "*",
+    "passport-facebook": "*",
+    "passport-http-bearer": "*"
+  }
+}
